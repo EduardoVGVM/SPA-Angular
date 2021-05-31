@@ -1,0 +1,20 @@
+<spa-toolbar></spa-toolbar>
+
+<spa-user></spa-user>
+
+<br>
+
+<div class="text">
+    <h1>
+        Jogados recentemente por você:
+    </h1>
+</div>
+<div class="display">
+    <mat-grid-list cols='4' rowHeight='2:1'>
+        <div *ngFor='let jogo of jogos'>
+            <mat-grid-tile>
+                <img [src]="jogo.image">
+            </mat-grid-tile>
+        </div>
+    </mat-grid-list>
+</div>

@@ -1,0 +1,12 @@
+.forms{
+  font-size: 24px;
+}
+
+.status{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}

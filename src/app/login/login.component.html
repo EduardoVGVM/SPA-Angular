@@ -1,0 +1,23 @@
+<mat-toolbar>
+    <span>SPA Angular</span>
+</mat-toolbar>
+
+<div class="container">
+    <div class="greeting">
+        Bem vindo(a)!
+    </div>
+    <br>
+    <div class="forms">
+        <mat-form-field>
+            <mat-label>Usuário</mat-label>
+            <input matInput placeholder="@email">
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+            <mat-label>Senha</mat-label>
+            <input matInput placeholder="*****">
+        </mat-form-field>
+        <br>
+        <a [routerLink]="'/home'" button mat-raised-button color='primary'>Login</a>
+    </div>
+</div>
